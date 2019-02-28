@@ -55,9 +55,16 @@ a:hover {
   color: white
 }
 
-header {
+.index-img {
   text-align: center;
   background: url('images/swamp.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.experience-img {
+  text-align: center;
+  background: url('images/hardware.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
