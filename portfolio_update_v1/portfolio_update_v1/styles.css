@@ -62,13 +62,6 @@ a:hover {
   overflow: hidden;
   padding-top: 60px;
 }
-.experience-img {
-  text-align: center;
-  background: url('images/hardware.jpg') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
 header {
   line-height: 1.5;
 }
@@ -113,7 +106,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #2F4F4F;
 }
 
 ul.skills {
@@ -177,6 +170,21 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+/* Experience Page */
+.exp-h1 {
+  font-family: helvetica;
+  text-shadow: 2px 2px 2px #000;
+  color: white;
+  padding: 50px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+.exp-bg {
+  background-color: lightgrey;
 }
 
 /* Styles for larger screens */
