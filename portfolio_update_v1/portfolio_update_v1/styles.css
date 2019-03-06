@@ -75,7 +75,9 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2);
+  box-shadow: 0px 0px 7px 7px white;
+  border: transparent;
 }
 .tag {
   font-family: helvetica;
@@ -134,6 +136,7 @@ footer {
   min-width: 100%;
   max-height: 10px;
   padding: 20px 0 40px 20px;
+
 }
 
 footer .copyright {
@@ -193,10 +196,6 @@ a.social:hover {
   min-width: 100%;
 }
 
-.exp-bg {
-  background-color: #F5F5F5;
-}
-
 .qualifications {
   text-align: left;
 }
@@ -208,6 +207,11 @@ a.social:hover {
   height: auto;
   box-shadow: 3px 3px 5px black;
 }
+
+.qualifications li {
+  font-weight: bold;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
